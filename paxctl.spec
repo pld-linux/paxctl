@@ -6,7 +6,7 @@ Release:	0.9
 License:	Public Domain
 Group:		Applications/System
 Source0:	http://pax.grsecurity.net/%{name}-%{version}.tar.gz
-# Source0-md5:	376ee0327bb6060a03052cdc71bb371f
+# Source0-md5:	efb173644c2dbf75a7a244feb212529c
 URL:		http://pax.grsecurity.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	chpax
