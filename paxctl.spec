@@ -8,8 +8,8 @@ Group:		Applications/System
 Source0:	http://pax.grsecurity.net/%{name}-%{version}.tar.gz
 # Source0-md5:	efb173644c2dbf75a7a244feb212529c
 URL:		http://pax.grsecurity.net/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	chpax
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
 
