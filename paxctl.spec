@@ -1,12 +1,12 @@
 Summary:	New PaX control program
 Summary(pl):	Nowe narzêdzie do kontroli PaX
 Name:		paxctl
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	Public Domain
 Group:		Applications/System
 Source0:	http://pax.grsecurity.net/%{name}-%{version}.tar.gz
-# Source0-md5:	efb173644c2dbf75a7a244feb212529c
+# Source0-md5:	a1ebfd41b8323f3af2263317b3911806
 URL:		http://pax.grsecurity.net/
 Obsoletes:	chpax
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
