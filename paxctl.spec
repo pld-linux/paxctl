@@ -1,5 +1,5 @@
 Summary:	New PaX control program
-Summary(pl):	Nowe narzêdzie do kontroli PaX
+Summary(pl.UTF-8):   Nowe narzÄ™dzie do kontroli PaX
 Name:		paxctl
 Version:	0.4
 Release:	1
@@ -27,21 +27,21 @@ mechanisms are active by default - here paxctl can be used to turn
 them on for selected programs (e.g., network daemons, programs that
 process network data such as mail clients, web browsers, etc).
 
-%description -l pl
-Ten pakiet zawiera narzêdzie paxctl do kontroli flag PaX dla ka¿dej
-binarki. Ten nowy program u¿ywa znaczników PT_PAX_FLAGS dostêpnych w
-³atach PaX po 2004.02.04 (jest to mocno zalecana wersja).
+%description -l pl.UTF-8
+Ten pakiet zawiera narzÄ™dzie paxctl do kontroli flag PaX dla kaÅ¼dej
+binarki. Ten nowy program uÅ¼ywa znacznikÃ³w PT_PAX_FLAGS dostÄ™pnych w
+Å‚atach PaX po 2004.02.04 (jest to mocno zalecana wersja).
 
-PaX to system zapobiegania w³amaniom dostarczaj±cy mechanizmy
-zabezpieczeñ przeciwko b³êdom zwi±zanym z uszkadzaniem zawarto¶ci
-pamiêci. Niektóre aplikacje nie s± kompatybilne z pewnymi cechami (ze
-wzglêdów projektowych lub z³ej techniki) i przez to mog± musieæ byæ
-zwolnione z niektórych ograniczeñ. Mo¿liwe jest tak¿e uruchomienie
-mechanizmu PaX w trybie ³agodnym (soft), kiedy ¿aden z mechanizmów
-ochrony nie jest domy¶lnie w³±czony i w takim przypadku mo¿na u¿ywaæ
-paxctl do w³±czenia ich dla wybranych programów (np. demonów
-sieciowych, programów przetwarzaj±cych dane sieciowe takich jak
-klienci pocztowi, przegl±darki WWW itp.).
+PaX to system zapobiegania wÅ‚amaniom dostarczajÄ…cy mechanizmy
+zabezpieczeÅ„ przeciwko bÅ‚Ä™dom zwiÄ…zanym z uszkadzaniem zawartoÅ›ci
+pamiÄ™ci. NiektÃ³re aplikacje nie sÄ… kompatybilne z pewnymi cechami (ze
+wzglÄ™dÃ³w projektowych lub zÅ‚ej techniki) i przez to mogÄ… musieÄ‡ byÄ‡
+zwolnione z niektÃ³rych ograniczeÅ„. MoÅ¼liwe jest takÅ¼e uruchomienie
+mechanizmu PaX w trybie Å‚agodnym (soft), kiedy Å¼aden z mechanizmÃ³w
+ochrony nie jest domyÅ›lnie wÅ‚Ä…czony i w takim przypadku moÅ¼na uÅ¼ywaÄ‡
+paxctl do wÅ‚Ä…czenia ich dla wybranych programÃ³w (np. demonÃ³w
+sieciowych, programÃ³w przetwarzajÄ…cych dane sieciowe takich jak
+klienci pocztowi, przeglÄ…darki WWW itp.).
 
 %prep
 %setup -q
