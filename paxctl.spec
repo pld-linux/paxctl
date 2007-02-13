@@ -1,5 +1,5 @@
 Summary:	New PaX control program
-Summary(pl.UTF-8):   Nowe narzędzie do kontroli PaX
+Summary(pl.UTF-8):	Nowe narzędzie do kontroli PaX
 Name:		paxctl
 Version:	0.4
 Release:	1
