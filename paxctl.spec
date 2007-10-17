@@ -1,12 +1,12 @@
 Summary:	New PaX control program
 Summary(pl.UTF-8):	Nowe narzędzie do kontroli PaX
 Name:		paxctl
-Version:	0.4
+Version:	0.5
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://pax.grsecurity.net/%{name}-%{version}.tar.gz
-# Source0-md5:	c76dc576cf3265354074185e3bcb024c
+# Source0-md5:	6ec138522977dc7654d33ddbe32755f0
 URL:		http://pax.grsecurity.net/
 Obsoletes:	chpax
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -54,9 +54,9 @@ klienci pocztowi, przeglądarki WWW itp.).
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-%{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man1}
+install paxctl $RPM_BUILD_ROOT%{_sbindir}
+install paxctl.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -65,4 +65,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_sbindir}/*
 %doc README
-%{_mandir}/man?/*
+%{_mandir}/man1/*
