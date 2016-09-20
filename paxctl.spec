@@ -2,7 +2,7 @@ Summary:	New PaX control program
 Summary(pl.UTF-8):	Nowe narzędzie do kontroli PaX
 Name:		paxctl
 Version:	0.9
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://pax.grsecurity.net/%{name}-%{version}.tar.gz
